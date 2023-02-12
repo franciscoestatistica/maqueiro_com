@@ -4,6 +4,7 @@ library(xlsx)
 library(DT)
 getwd()
 #setwd("D:/MAQUEIRO_COM")
+#commit-12-02-23 19e32
 ui <- navbarPage(
   "MAQUEIRO.COM",
   tabPanel("SolicitarTransporte",
@@ -122,14 +123,14 @@ server <- function(input, output, session) {
   
   
 
-  updateSelectInput(session, "id_excluir", choices = order(pacientes_excluir$ID) )  
+  updateSelectInput(session, "id_excluir", choices = pacientes_excluir$ID)
   
   
   
-  updateSelectInput(session, "id_iniciar_t", choices = order(pacientes_iniciar_t$ID[   pacientes_iniciar_t$iniciou_transp==FALSE & pacientes_baixar_t$finalizou_transp==FALSE  ] )  )
+  updateSelectInput(session, "id_iniciar_t", choices = pacientes_iniciar_t$ID[ pacientes_iniciar_t$iniciou_transp==FALSE & pacientes_baixar_t$finalizou_transp==FALSE  ] )  
 
   
-  updateSelectInput(session, "id_baixar_t", choices = order(pacientes_baixar_t$ID[   pacientes_baixar_t$iniciou_transp==TRUE & pacientes_baixar_t$finalizou_transp==FALSE  ] )  )
+  updateSelectInput(session, "id_baixar_t", choices = pacientes_baixar_t$ID[ pacientes_baixar_t$iniciou_transp==TRUE & pacientes_baixar_t$finalizou_transp==FALSE  ] )  
   
   
   observeEvent(input$cadastrar, {
