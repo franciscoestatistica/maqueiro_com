@@ -1,0 +1,17 @@
+E-mail (obrigatório),
+NOME DO PACIENTE (obrigatório),
+LEITO (opcional),
+LOCAL DE PARTIDA (obrigatório),
+LOCAL DE DESTINO (obrigatório), campo de escolha única com as opções: "EXAMES", "TRANSFERÊNCIA", "ALTA- ACOMPANHAMENTO",  "ASSISTENCIAL", "ÓBITO- ACOMPANHAMENTO", "ASSISTENCIAL"
+QUAL TIPO DE EXAME? (obrigatório), campo de texto.
+TIPO DE TRANSPORTE (obrigatório), campo de escolha única com as opções:"CADEIRA", "MACA", "CAMA", "BERÇO", "DEAMBULANDO"
+POSSUE MEIO DE TRANSPORTE NO LOCAL? (obrigatório), campo de escolha única com as opções: "SIM", "NÃO, MAQUEIRO PROVIDENCIAR"
+CONDIÇOES DO PACIENTE (obrigatório), campo de escolha única com as opções: "PRECAUÇÃO DE CONTATO - MAQUEIRO PARAMENTAR", "PRECAUÇÃO RESPIRATÓRIA - MAQUEIRO PARAMENTAR", "EM USO DE O2- NECESSITA DE ACOMPANHAMENTO ASSISTENCIAL"
+CLASSIFICAÇÃO DE PRIORIDADES DE ACORDO COM O PROTOCOLO DE MANCHESTER (obrigatório), campo de escolha única com as opções: "VERMELHO (IMEDIATO) -  PCR, HEMORRAGIAS, CONVULSÓES, DOR NO PEITO, ETC.", "LARANJA (10 MIN) -  DOR SEVERA MUITO SEVERA, ARRITMIA, CEFALÉIA DE RÁPIDA PROGRESSÃO", "AMARELA (URGENTE) -  VÔMITOS, DESMAIOS, DORES MODERADAS, SINAIS VITAIS ALTERADOS, ETC.", "VERDE (POUCO URGETE) -  DORES LEVES, TONTURAS, RESFRIADOS, NÁUSEAS, ETC.", "AZUL (NÃO URGENTE) -  DORES CRÔNICAS JÁ DIAGNOSTICADAS,  ETC."
+PACIENTE PREPARADO PARA O TRANSPORTE? (obrigatório), campo de escolha única com as opções: "SIM", "NÃO"
+QUEM SOLICITOU O TRANSPORTE? (obrigatório), campo de texto.
+RAMAL OU TELEFONE? (obrigatório), campo de texto.
+OBSERVAÇOES (opcional), campo de texto.
+
+
+
